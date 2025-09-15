@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario simples</h1>
+    <p>Preencha o formulario abaixo.</p>
+    
+        <form action="" method="post">
+       <p><label for="inome">Nome:</label>
+        <input type="text" name="nome" id="inome">
+    </p>
+    <p>
+        <label for="email_id">E-mail</label>
+        <input type="email" name="email" id="email_id">
+    </p>
+    <p>
+        <label for="senha_id">Senha</label>
+        <input type="password" name="senha" id="senha_id">
+    </p>
+</form>
+<hr>
+<h1>Formulario de Cadastro</h1>
+    <form action="" method="post"> <!--method - metodo do formulario-->
+        <p>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" name="nome" id="nome">
+        </p>
+        <p>
+            <label for="iusuario">Nome de Usuário:</label>
+            <input type="text" name="usuario" id="iusuario">
+        </p>
+        <p>
+            <label for="email2_id">E-mail</label>
+            <input type="email" name="email" id="email2_id">
+         </p>
+         <p>
+            <label for="senha1_id">Senha:</label>
+            <input type="password" name="senha" id="senha1_id">
+         </p>
+        <p> Time: <br>
+        <input type="radio" name="time" id="time">
+        <label for="time">São Paulo</label>
+
+        <input type="radio" name="1time" id="1time">
+        <label for="1time">Corinthians</label>
+
+        <input type="radio" name="2time" id="2time">
+        <label for="2time">Flamengo</label>
+
+        <input type="radio" name="3time" id="3time">
+        <label for="3time">Palmeiras</label><br>
+
+        <input type="radio" name="naotem" id="naotem">
+        <label for="naotem">Não torço pra nenhum time</label>
+    </p>
+
+    <p>Interesses<br>
+        <input type="checkbox" name="Tecnologia"id="Tecnologia">
+        <label for="Tecnologia">Tecnologia</label>
+        <p>
+            <input type="checkbox" name="Esporte" id="Esporte">
+            <label for="Esporte">Esporte</label>
+        </p>
+        <p>
+            <input type="checkbox" name="musica" id="musica">
+            <label for="musica">Música</label>
+        </p>
+        <p>Cidade:<br>
+            <select name="Cidade" id="cidade_id">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="BH">Belo Horizonte</option>
+                </select>
+        </p>
+        <p>
+            <label for="mensagem_id">mensagem</label><br>
+            <textarea name="mensagem" id="mensagem_id" rows="10" cols="50"></textarea>
+        </p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="redefinir">
+    </form>
+</body>
+</html>
+<!--Value - Muda o texto que esta dentro do botão-->
+<!--textarea -area de texto-->
+<!--option -opção que as pessoas podem selecionar-->
+<!--select -Lista de opções-->
+<!--rows -define um numero de linhas em uma textarea-->
+<!--cols -define o numero de colunas-->
+<!--checkbox -botão de opção-->
